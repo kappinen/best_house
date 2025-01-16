@@ -1,0 +1,32 @@
+@import "node_modules/ol/ol.css";
+
+html, body {
+  margin: 0;
+  height: 100%;
+}
+#map {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.query-bar {
+  right: .5em;
+  top: .5em;
+  width: 50%;
+  height: 21px;
+  resize: none;
+  color: black;
+  background-color: rgba(255, 255, 255, 0.7) !important
+}
+
+.info-bar {
+  right: 5%;
+  bottom: .5em;
+  width: 90%;
+  height: 20%;
+  resize: none;
+  color: black;
+  background-color: rgba(255, 255, 255, 0.7) !important
+}
